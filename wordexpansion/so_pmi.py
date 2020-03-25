@@ -19,12 +19,12 @@ class ChineseSoPmi:
     '''分词'''
     def seg_corpus(self, train_data, seedword_txtfile):
         #将情感词加入到用户词典当中，保证分词能够将种子情感词切开
-        sentiment_words = [line.strip().split('\t')[0] for line in open(seedword_txtfile)]
+        sentiment_words = [line.strip().split('\t')[0] for line in open(seedword_txtfile, encoding='utf-8')]
         for word in sentiment_words:
             jieba.add_word(word)
         seg_data = list()
         count = 0
-        for line in open(train_data):
+        for line in open(train_data, encoding='utf-8'):
             line = line.strip()
             count += 1
             if line:
@@ -43,7 +43,7 @@ class ChineseSoPmi:
         cowords_list = list()
         window_size = 5
         count = 0
-        sentiment_words = [line.strip().split('\t')[0] for line in open(seedword_txtfile)]
+        sentiment_words = [line.strip().split('\t')[0] for line in open(seedword_txtfile, encoding='utf-8')]
         for sent in seg_data:
             count += 1
             if check_words(sent):
@@ -94,9 +94,9 @@ class ChineseSoPmi:
             return co_dict, candi_words
         '''收集种子情感词'''
         def collect_sentiwords(seedword_txtfile, word_dict):
-            pos_words = set([line.strip().split('\t')[0] for line in open(seedword_txtfile) if
+            pos_words = set([line.strip().split('\t')[0] for line in open(seedword_txtfile, encoding='utf-8') if
                              line.strip().split('\t')[1] == 'pos']).intersection(set(word_dict.keys()))
-            neg_words = set([line.strip().split('\t')[0] for line in open(seedword_txtfile) if
+            neg_words = set([line.strip().split('\t')[0] for line in open(seedword_txtfile, encoding='utf-8') if
                              line.strip().split('\t')[1] == 'neg']).intersection(set(word_dict.keys()))
             return pos_words, neg_words
         '''计算sopmi值'''
@@ -142,8 +142,8 @@ class ChineseSoPmi:
                 return 'x'
         pos_dict = dict()
         neg_dict = dict()
-        f_neg = open(neg_candi_txtfile, 'w+')
-        f_pos = open(pos_candi_txt_file, 'w+')
+        f_neg = open(neg_candi_txtfile, 'w+', encoding='utf-8')
+        f_pos = open(pos_candi_txt_file, 'w+', encoding='utf-8')
 
         for word, word_score in pmi_dict.items():
             if word_score > 0:
