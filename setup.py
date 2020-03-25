@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='wordexpansion',
-      version='0.0.5',
+      version='0.0.6',
       author='大邓',
       author_email='thunderhit@qq.com',
       url='https://github.com/thunderhit/wordexpansion',
