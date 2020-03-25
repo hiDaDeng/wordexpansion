@@ -1,3 +1,8 @@
+> README.md为本人所写，代码底层完全为刘焕勇设计。
+>
+> 大邓项目地址https://github.com/thunderhit/wordexpansion
+>
+> 原项目(刘焕勇)地址https://github.com/liuhuanyong/SentimentWordExpansion
 
 
 # 一、项目意义
@@ -212,17 +217,15 @@ word,sopmi,polarity,word_length,postag
 
 # 更多
 - [B站:大邓和他的python](https://space.bilibili.com/122592901/channel/detail?cid=66008)
-- 公众号：大邓和他的python
 - [知乎专栏：数据科学家](https://zhuanlan.zhihu.com/dadeng)
 - [《python网络爬虫与文本数据分析》](https://ke.qq.com/course/482241?tuin=163164df)，已经于近期重新录制上传
+- 扫码关注【公众号：大邓和他的python】
+![](img/公众号下方二维码.png)
 
+# 支持一下
 
+![](img/my_zanshang_qrcode2.jpg)
 
-> README.md为本人所写，代码底层完全为刘焕勇设计。
->
-> 大邓项目地址https://github.com/thunderhit/wordexpansion
->
-> 原项目(刘焕勇)地址https://github.com/liuhuanyong/SentimentWordExpansion
 
 
 
