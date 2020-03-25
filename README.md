@@ -93,7 +93,7 @@ pip3 install wordexpansion -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 - 每行一个词
 - 每个词用neg或pos标记
-- 词与标记用空格间隔
+- 词与标记用tab键间隔
 
 ```
 休克	neg
