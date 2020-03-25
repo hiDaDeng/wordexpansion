@@ -208,7 +208,7 @@ word,sopmi,polarity,word_length,postag
 
 # 支持一下
 
-![](img/my_zanshang_qrcode.jpg)
+![](img/my_zanshang_qrcode2.jpg)
 
 # 更多
 - [B站:大邓和他的python](https://space.bilibili.com/122592901/channel/detail?cid=66008)
