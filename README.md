@@ -50,15 +50,8 @@
 pip3 install wordexpansion
 ```
 
-### 2.2 加镜像站点
 
-有的童鞋已经把pip默认安装镜像站点改为国内，如果国内镜像还未收录我的这个包，那么可能会安装失败。只能从国外https://pypi.org/simple站点搜索wordexpansion资源并安装
-
-```
-pip3 install wordexpansion -i https://pypi.org/simple
-```
-
-### 2.3 国内镜像安装
+### 2.2 国内镜像安装
 
 如果国内镜像站点已经收录，那么使用这个会更快
 
