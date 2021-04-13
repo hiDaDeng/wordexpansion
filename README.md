@@ -215,10 +215,10 @@ word,sopmi,polarity,word_length,postag
 - 扫码关注【公众号：大邓和他的python】
 ![](img/公众号下方二维码.png)
 
-# 支持一下
 
-![](img/my_zanshang_qrcode2.jpg)
+<br>
 
+![](大邓和他的Python.png)
 
 
 
