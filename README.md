@@ -24,7 +24,7 @@
 
 可见能够简单快速构建不同领域(手机、汽车等)的情感词典十分重要。但是人工构建太慢，如果让机器帮我们把最有可能带情感的候选词找出来，人工再去筛选构建词典，那该多好啊。那么如何构建呢？
 
-
+<br>
 
 # 二、构建方法
 
@@ -39,6 +39,9 @@
 - 根据**初始负种子词**找到很多大概率为**负面情感的候选词**
 
 这个包原始作者刘焕勇，项目地址https://github.com/liuhuanyong/SentimentWordExpansion 我仅仅做了简单的封装
+
+<br>
+
 
 # 三、安装
 
@@ -59,7 +62,7 @@ pip3 install wordexpansion
 pip3 install wordexpansion -i https://pypi.tuna.tsinghua.edu.cn/simple/
 ```
 
-
+<br>
 
 # 四、使用方法
 
@@ -198,7 +201,7 @@ word,sopmi,polarity,word_length,postag
 
 现在电脑已经帮我们找出候选词，我们人类最擅长找毛病，对neg_candi.txt和pos_candi.txt我们人类只需要一个个挑毛病，把不带正负情感的词剔除掉。这样经过一段时间的剔除工作，针对具体研究领域的专业情感词典就构建出来了。
 
-
+<br>
 
 # 五、注意：
 1. so_pmi算法效果受训练语料影响，语料规模越大，效果越好  
