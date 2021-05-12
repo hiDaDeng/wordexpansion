@@ -234,7 +234,7 @@ word,sopmi,polarity,word_length,postag
 
 - 公众号：大邓和他的python
 
-- [知乎专栏：数据科学家](https://zhuanlan.zhihu.com/hidadeng)
+- [知乎专栏：数据科学家](https://zhuanlan.zhihu.com/dadeng)
 
 ![](img/大邓和他的Python.png)
 <br>
