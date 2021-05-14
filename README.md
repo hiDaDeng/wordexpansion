@@ -1,7 +1,5 @@
 > README.md为本人所写，代码底层完全为刘焕勇设计。
 >
-> 大邓项目地址https://github.com/thunderhit/wordexpansion
->
 > 原项目(刘焕勇)地址https://github.com/liuhuanyong/SentimentWordExpansion
 
 
