@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(name='wordexpansion',
-      version='0.0.6',
+      version='1.1',
       author='大邓',
       author_email='thunderhit@qq.com',
-      url='https://github.com/thunderhit/wordexpansion',
+      url='https://github.com/hidadeng/wordexpansion',
       packages=find_packages(),
       python_requires='>=3.5',
       license="MIT",
