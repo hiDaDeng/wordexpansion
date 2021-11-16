@@ -1,4 +1,8 @@
 
+现已将项目wordexpansion融入到[cntext](https://github.com/hidadeng/cntext)中，欢迎各位star
+
+<br>
+
 # 一、项目意义
 
 情感分析大多是基于情感词典对文本数据进行分析，所以情感词典好坏、是否完备充足是文本分析的关键。
